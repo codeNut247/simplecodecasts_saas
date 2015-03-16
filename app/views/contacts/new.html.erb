@@ -1,0 +1,14 @@
+<div class="row">
+  <%= form_for @contact do |f| %>
+    <%= f.label :name %>
+    <%= text_field_tag :name %><br>
+  
+    <%= f.label :email %>
+    <%= email_field_tag :email %><br>
+  
+    <%= f.label :comments %>
+    <%= text_area_tag :comments %>
+  
+  <% end %>
+</div>
+
